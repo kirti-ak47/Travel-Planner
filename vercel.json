@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/generateItinerary.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/generateItinerary",
+      "dest": "api/generateItinerary.js"
+    }
+  ]
+}
