@@ -11,5 +11,8 @@
       "src": "/api/generateItinerary",
       "dest": "api/generateItinerary.js"
     }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
